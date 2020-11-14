@@ -1,0 +1,184 @@
+/* Header */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#logo {
+    width: 100%;
+    height: 60px;
+}
+
+#logo img {
+    margin-top: 15px;
+    margin-left: 17%;
+    width: 200px;
+    height: 34px;
+}
+
+.fa-arrow-left {
+    left: 25px;
+    top: -10px;
+    position: relative;
+    font-size: 1.1rem; 
+    color: #353535;
+}
+
+#photomenu {
+    width: 100%;
+    height: 250px;
+}
+
+#imagemenu {
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Section */
+
+#section1 {
+    position: relative;
+    margin-top: -56px;
+    width: 100%;
+    height: auto;
+    background-color: #f6f6f6;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+    padding-bottom: 40px;
+}
+
+#Tmenu {  
+    position: relative;
+    font-family: 'shrikhand';
+    font-size: 1.35rem;
+    margin-left: 30px;
+    top: 22px;
+    
+}
+
+.fa-heart {
+    position: relative;
+    float: right;
+    top: -27px;
+    right: 40px;
+    font-size: 1.4rem;
+    color: #353535;
+}
+
+.Box {
+    margin-bottom: 20px;
+
+}
+
+.STmenu { 
+    font-family: 'Roboto';
+    font-size: 1rem;
+    color: #737373;
+    margin-left: 27px;
+    margin-top: 55px;
+    margin-bottom: 20px;
+}
+
+.line {
+    position: relative;
+    width: 40px;
+    height: 4px;
+    background-color: #99e2d0;
+    margin-left: 27px;
+    margin-top: -17px;
+}
+
+.choix {
+    margin-top: 20px;
+    margin-left: 5%;
+    width: 335px;
+    height: 65px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 1px 1px 12px grey;
+}
+
+.Repas1 {
+    position: relative;
+    font-family: 'Roboto';
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 1.04rem;
+    font-weight: bold;
+    top: 10px;
+
+}
+
+.Repas2 {
+    font-family: 'Roboto';
+    margin-left: 10px;
+    font-size: 0.9rem;
+
+}
+
+.prix {
+    position: relative;
+    float: right;
+    margin-top: -35px;
+    margin-right: 15px;
+    font-family: 'Roboto';
+
+}
+
+#Commander {
+    margin-top: 55px;
+    margin-left: 18%;
+    width: 230px;
+    height: 60px;
+    background: linear-gradient( to bottom right,#FF79DA, #9356DC );
+    border-radius: 45px;
+    text-align: center;
+    line-height: 55px;
+    font-family: 'Roboto';
+    color: white;
+    box-shadow: 1px 1px 12px grey;
+    border: none;    
+}
+
+
+
+/* footer */ 
+
+footer {
+    width: 100%;
+    height: 190px;
+    background-color: #353535;
+    padding-top: 10px;
+}
+
+#Tfooter {
+    color: white;  
+    font-family: 'shrikhand';
+    margin-left: 35px;
+}
+
+.Lienfooter {
+    margin-left: 35px;
+    margin-bottom: -8px;
+    font-family: 'Roboto';
+    color: white;
+    font-size: 0.9rem;
+}
+
+.fa-utensils {
+    margin-right: 10px;
+}
+
+.fa-hands-helping {
+    font-size: 0.7rem;
+    margin-right: 8px;
+}
+
+a:link 
+{ 
+ text-decoration:none; 
+}
