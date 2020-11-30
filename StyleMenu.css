@@ -1,3 +1,304 @@
+#bloc_page {
+    width: 1150px;
+    margin: auto;
+}
+
+#loader {
+    width: 375px;
+    height: 1150px;
+    background-color: green;
+    opacity: 0.90;
+    position: fixed;
+    top: 0;
+}
+
+/* Header */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#logo {
+    width: 100%;
+    height: 60px;
+}
+
+#logo img {
+    margin-top: 15px;
+    margin-left: 39.3%;
+    width: 200px;
+    height: 34px;
+}
+
+.fa-arrow-left {
+    left: 25px;
+    top: -10px;
+    position: relative;
+    font-size: 1.1rem; 
+    color: #353535;
+}
+
+#photomenu {
+    width: 100%;
+    height: 250px;
+}
+
+#imagemenu {
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Section */
+
+#section1 {
+    position: relative;
+    margin-top: -56px;
+    width: 100%;
+    height: auto;
+    background-color: #f6f6f6;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+    padding-bottom: 40px;
+}
+
+#Tmenu {  
+    position: relative;
+    font-family: 'shrikhand';
+    font-size: 1.35rem;
+    margin-left: 34.5%;
+    top: 22px;
+    width: 220px;
+}
+
+.far.fa-heart {
+    float: right;
+    margin-right: 36%;
+    margin-top: -26px;
+    font-size: 1.4rem;
+}
+
+.fas.fa-heart {
+    float: right;
+    margin-right: 36%;
+    margin-top: -26px;
+    font-size: 1.4rem;
+    color: transparent;
+}
+
+.fas.fa-heart:hover {
+    color: #9356DC;
+    transition: 1000ms;
+}
+
+.Box {
+    margin-bottom: 20px;
+    margin-left: 32%;
+}
+
+.STmenu { 
+    font-family: 'Roboto';
+    font-size: 1rem;
+    color: #737373;
+    margin-left: 27px;
+    margin-top: 55px;
+    margin-bottom: 25px;
+}
+
+.line {
+    position: relative;
+    width: 40px;
+    height: 4px;
+    background-color: #99e2d0;
+    margin-left: 27px;
+    margin-top: -17px;
+    margin-bottom: 40px;
+}
+
+.choix{
+    display: flex;
+    width: 335px;
+    height: 65px;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 1px 1px 12px grey;
+    margin-bottom: 25px;
+    margin-top: 20px;
+    margin-left: 20px;
+    animation: slide-fwd-top 0.45s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+.choix-infos {
+    width: 335px;
+}
+.box {
+    margin-right: -100px;
+    width: 80px;
+    height:100px;
+    background-color: #99E2D0;
+}
+.choix:hover .box {
+  margin-right: 0;
+  transition: 0.8s all ease;
+}
+.fa-check-circle {
+  margin-top: 19px;
+  margin-left: 20px;
+  font-size: 1.7rem;
+  color: white;
+}
+.choix:hover .fa-check-circle {
+  animation: rotate-center 0.7s ease-in-out both;
+}
+@keyframes rotate-center {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes slide-fwd-top {
+    0% {
+      transform: translateZ(0) translateY(0);
+    }
+    100% {
+      transform: translateZ(16px) translateY(-10px);
+    }
+  }
+#delay1 {
+  animation-delay: 0s;
+}
+#delay2 {
+  animation-delay: 0.1s;
+}
+#delay3 {
+  animation-delay: 0.2s;
+}
+#delay4 {
+  animation-delay: 0.3s;
+}
+#delay5 {
+  animation-delay: 0.4s;
+}
+#delay6 {
+  animation-delay: 0.5s;
+}
+#delay7 {
+  animation-delay: 0.6s;
+}
+#delay8 {
+  animation-delay: 0.7s;
+}
+#delay9 {
+  animation-delay: 0.8s;
+}
+#delay10 {
+    animation-delay: 0.9s;
+}
+.Repas1 {
+    position: relative;
+    font-family: 'Roboto';
+    margin-left: 10px;
+    margin-top: 2px;
+    font-size: 1.04rem;
+    font-weight: bold;
+    top: 10px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.Repas2 {
+    font-family: 'Roboto';
+    width: 280px;
+    margin-left: 10px;
+    font-size: 0.9rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.choix:hover .Repas2 {
+    width: 210px;
+    transition: 0.7s;
+}
+.prix {
+    position: relative;
+    float: right;
+    margin-top: -35px;
+    margin-right: 15px;
+    font-family: 'Roboto';
+}
+
+#Commander {
+    margin-top: 55px;
+    margin-left: 40%;
+    width: 230px;
+    height: 60px;
+    background: linear-gradient( to bottom right,#FF79DA, #9356DC );
+    border-radius: 45px;
+    text-align: center;
+    line-height: 55px;
+    font-family: 'Roboto';
+    color: white;
+    box-shadow: 1px 1px 12px grey;
+    border: none;    
+}
+
+#Commander:hover {
+    filter: brightness(130%); 
+    box-shadow: 5px 5px 16px grey;      
+}
+
+/* footer */ 
+
+footer {
+    width: 100%;
+    height: 190px;
+    background-color: #353535;
+    padding-top: 10px;
+}
+
+#Tfooter {
+    color: white;  
+    font-family: 'shrikhand';
+    margin-left: 35px;
+}
+
+.Lienfooter {
+    margin-left: 35px;
+    margin-bottom: -8px;
+    font-family: 'Roboto';
+    color: white;
+    font-size: 0.9rem;
+}
+
+.fa-utensils {
+    margin-right: 10px;
+}
+
+.fa-hands-helping {
+    font-size: 0.7rem;
+    margin-right: 8px;
+}
+
+a, a:link, a:hover, a:visited, a:active
+{ 
+ text-decoration:none;
+ color: black;
+}
+
+
+
+@media only screen and (max-width: 375px) 
+
+{   
+    #bloc_page {
+        width: 100%;
+        margin: 0px;
+        
+    }
 /* Header */
 
 body {
@@ -60,17 +361,17 @@ body {
     
 }
 
-.fa-heart {
-    position: relative;
-    float: right;
-    top: -27px;
-    right: 40px;
-    font-size: 1.4rem;
-    color: #353535;
+.fas.fa-heart {
+    margin-right: 25px;
+}
+
+.far.fa-heart {
+    margin-right: 25px; 
 }
 
 .Box {
     margin-bottom: 20px;
+    margin-left: 0;
 }
 
 .STmenu { 
@@ -108,15 +409,14 @@ body {
     margin-top: 10px;
     font-size: 1.04rem;
     font-weight: bold;
-    top: 10px;
-
+    top: 2px;
 }
 
 .Repas2 {
     font-family: 'Roboto';
     margin-left: 10px;
     font-size: 0.9rem;
-
+    margin-top: -8px;
 }
 
 .prix {
@@ -180,4 +480,6 @@ footer {
 a:link 
 { 
  text-decoration:none; 
+}
+
 }
