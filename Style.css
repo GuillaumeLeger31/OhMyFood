@@ -1,5 +1,10 @@
 /* Header */
 
+#bloc_page {
+    width: 1150px;
+    margin: auto;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -8,11 +13,12 @@ body {
 #logo {
     width: 100%;
     height: 60px;
+    
 }
 
 #logo img {
     margin-top: 15px;
-    margin-left: 22%;
+    margin-left: 41%;
     width: 200px;
     height: 34px;
 }
@@ -25,7 +31,7 @@ body {
 }
 
 .fa-map-marker-alt {
-    margin-left: 110px;
+    margin-left: 43%;
     margin-top: 17px;
 }
 
@@ -52,15 +58,14 @@ body {
     margin-top: -10px;
     text-align: center;
     font-family:'Roboto';
-    font-weight: 10;
     font-size: 1rem;
     margin-bottom: 25px;
 }
 
 #Trechercher {
-    margin-left: 17%;
     width: 250px;
     height: 60px;
+    margin-left: 39%;
     background: linear-gradient( to bottom right,#FF79DA, #9356DC );
     border-radius: 45px;
     text-align: center;
@@ -75,12 +80,15 @@ body {
     filter: brightness(130%); 
     box-shadow: 5px 5px 16px grey;      
 }
-
+ 
 /* Section */
 
 #section1 {
     width: 100%;
     height: 440px;
+}
+#fonctionnement {
+    margin-left: 32%;
 }
 
 #T1fonctionnement {
@@ -154,8 +162,369 @@ body {
 #section2 {
     padding-top: 25px;
     width: 100%;
+    height: 800px;
+    background-color: #f6f6f6;
+}
+
+#flex {
+    display: flex;
+    margin-left: 12%;
+}
+
+#T1restaurants {
+    margin-left: 13%;
+    font-family: 'Roboto';
+    font-size: 1.4rem;
+}
+.restaurants {
+    margin-top: 20px;
+    margin-left: 2%;
+    margin-right: 60px;
+    margin-bottom: 60px;
+    width: 400px;
+    height: 250px;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 1px 1px 12px grey;
+}
+
+.imageRestaurants {
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 68%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.T2restaurants {
+    margin-top: 5px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-left: 15px;
+}
+
+.T3restaurants {
+    font-family: 'Roboto';
+    margin-top: -15px;
+    margin-left: 15px;
+}
+
+
+
+.far.fa-heart {
+    float: right;
+    margin-right: 25px;
+    margin-top: -45px;
+    font-size: 1.3rem;
+}
+
+.fas.fa-heart {
+    float: right;
+    margin-right: 25px;
+    margin-top: -45px;
+    font-size: 1.3rem;
+    color: transparent;
+}
+
+.fas.fa-heart:hover {
+    color: #9356DC;
+    transition: 1000ms;
+}
+
+.new {
+    width: 85px;
+    height: 35px;
+    background-color: #99e2d0;
+    position:absolute;
+    margin-top: 15px;
+    margin-left: 300px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 12px grey;
+}
+
+.Tnew {
+    font-family: 'Roboto';
+    color: #1a9678;
+    margin-top: 8px;
+    margin-left: 10px;
+
+}
+
+
+/* footer */ 
+
+footer {
+    width: 100%;
+    height: 190px;
+    background-color: #353535;
+    padding-top: 10px;
+}
+
+#Tfooter {
+    color: white;  
+    font-family: 'shrikhand';
+    margin-left: 35px;
+}
+
+.Lienfooter {
+    margin-left: 35px;
+    margin-bottom: -8px;
+    font-family: 'Roboto';
+    color: white;
+    font-size: 0.9rem;
+}
+
+.fa-utensils {
+    margin-right: 10px;
+}
+
+.fa-hands-helping {
+    font-size: 0.7rem;
+    margin-right: 8px;
+}
+
+a, a:link, a:hover, a:visited, a:active
+{ 
+ text-decoration:none;
+ color: black;
+}
+
+/*Loader */
+
+#loader {
+    width: 1150px;
+    height: 1150px;
+    background-color: white;
+    opacity: 0.95;
+    position: fixed;
+    top: 0;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-name: slidein;
+}
+.fa-sync {
+    font-size: 10rem;
+    opacity: 2;
+    background: -webkit-linear-gradient(#9356DC , #FF79DA , #99E2D0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: fixed;
+    top: 0;
+    margin-top: 15%;
+    margin-left: 26%;
+    animation: rotate-center 1.7s ease-in-out both;
+}
+
+#chargement {
+    font-size: 3rem;
+    position: fixed;
+    top: 0;
+    margin-top: 25%;
+    margin-left: 22%;
+    font-family: 'shrikhand';
+    background: -webkit-linear-gradient(#FF79DA , #99E2D0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@keyframes slidein {
+    from {
+      opacity: 1;
+    }
+  
+    to {
+      opacity: 0;
+      display: none;
+      visibility: hidden;
+    }
+  }
+@keyframes rotate-center {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+ }
+
+
+@media only screen and (max-width: 375px)
+
+{ 
+
+#bloc_page {
+    width: 100%;
+    margin: 0px;
+    
+}
+
+
+/* Header */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#logo {
+    width: 100%;
+    height: 60px;
+}
+
+#logo img {
+    margin-top: 15px;
+    margin-left: 22%;
+    width: 200px;
+    height: 34px;
+}
+
+#localisation {
+    width: 100%;
+    height: 50px;
+    background-color: #eaeaea; 
+    background: linear-gradient(to bottom, #eaeaea, #d1d1d1 0.2%, #d1d1d1 1%, #eaeaea 100%);
+}
+
+.fa-map-marker-alt {
+    margin-left: 25%;
+    margin-top: 17px;
+}
+
+#Tloca {
+    font-family: 'Roboto';
+    text-align: center;
+    margin-top: -19px;
+}
+
+#exploration {
+    padding-top: 1px;
+    width: 100%;
+    height: 250px;
+    background-color: #f6f6f6;
+}
+
+#T1explo {
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+#T2explo {
+    margin-top: -10px;
+    text-align: center;
+    font-family:'Roboto';
+    font-size: 1rem;
+    margin-bottom: 25px;
+}
+
+#Trechercher {
+    margin-left: 17%;
+    width: 66%;
+    height: 60px;
+    background: linear-gradient( to bottom right,#FF79DA, #9356DC );
+    border-radius: 45px;
+    text-align: center;
+    line-height: 55px;
+    font-family: 'Roboto';
+    color: white;
+    box-shadow: 1px 1px 12px grey;
+    border: none; 
+}
+
+#Trechercher:hover {
+    filter: brightness(130%); 
+    box-shadow: 5px 5px 16px grey;      
+}
+ 
+/* Section */
+
+#section1 {
+    width: 100%;
+    height: 440px;
+}
+
+#T1fonctionnement {
+    margin-left: 8%;
+    margin-top: 30px;
+    font-family: 'Roboto';
+    font-size: 1.4rem;
+}
+
+#fonctionnement {
+    margin-left: 0;
+}
+.Fonctionnement {
+    margin-top: 30px;
+    margin-left: 8%;
+    width: 82%;
+    height: 85px;
+    background-color: #f6f6f6;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    box-shadow: 1px 1px 12px grey;
+
+}
+
+.num {
+    width: 25px;
+    height: 25px;
+    background-color: #9356DC;
+    border-radius: 50px;
+    position: relative; 
+    top: 30px;
+    left: -10px;
+}
+
+.Tnum {
+    font-family: 'Roboto';
+    margin-left: 8px;
+    color: white;
+    position: relative; 
+    top: 4px;
+}
+
+.T2fonctionnement {
+    margin-left: 29%;
+    margin-top: -22px;
+    font-family: 'Roboto';
+    
+}
+
+.fa-mobile-alt {  
+    margin-top: 5px;
+    font-size: 25px;
+    margin-left: 52px;
+    color: #7e7e7e;
+}
+
+.fa-bars {
+    margin-top: 5px;
+    font-size: 25px;
+    margin-left: 50px;
+    color: #7e7e7e;
+}
+
+.fa-store {
+    
+    margin-top: 5px;
+    font-size: 25px;
+    margin-left: 45px;
+    color: #7e7e7e;
+}
+
+/* section 2 */
+
+#section2 {
+    padding-top: 25px;
+    width: 100%;
     height: 1000px;
     background-color: #f6f6f6;
+}
+#flex {
+    display: inline;
+    margin-left: 0;
 }
 
 #T1restaurants {
@@ -163,14 +532,16 @@ body {
     font-family: 'Roboto';
     font-size: 1.4rem;
 }
+
 .restaurants {
     margin-top: 20px;
     margin-left: 8%;
-    width: 315px;
+    width: 85%;
     height: 200px;
     background-color: white;
     border-radius: 25px;
     box-shadow: 1px 1px 12px grey;
+    margin-bottom: 15px;
 }
 
 .imageRestaurants {
@@ -205,16 +576,6 @@ body {
     margin-right: 25px;
     margin-top: -45px;
     font-size: 1.3rem;
-}
-
-.hover {
-    display: none;
-}
-
-
-
-.fa-heart:hover {
-    
 }
 
 .new {
@@ -273,4 +634,20 @@ footer {
 a:link 
 { 
  text-decoration:none; 
+}
+
+#loader {
+    width: 375px;
+}
+
+.fa-sync {
+    margin-top: 60%;
+    margin-left: 26%;
+}
+
+#chargement {
+    margin-top: 110%;
+    margin-left: 8%;
+}
+
 }
