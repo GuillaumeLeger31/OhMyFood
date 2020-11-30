@@ -483,3 +483,37 @@ a:link
 }
 
 }
+
+@media only screen and (min-width: 500px) and (max-width: 769px)
+{
+    
+    #bloc_page {
+        height: 2000px;
+        width: 768px;
+        margin: 0px;
+    }
+    #logo img {
+        margin-left: 37%;  
+    }
+
+    #Tmenu {
+        margin-left: 30%;
+    }
+
+    .Box {
+        margin-left: 27%;
+    }
+
+    #Commander {
+        margin-left: 37%;
+    }
+
+    .far.fa-heart {
+        margin-right: 27%;
+    }
+    
+    .fas.fa-heart { 
+        margin-right: 27%;   
+    }
+    
+}

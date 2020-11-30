@@ -109,6 +109,9 @@ body {
     box-shadow: 1px 1px 12px grey;
 
 }
+#backgoundpink {
+    background-color: #f5edff;
+}
 
 .num {
     width: 25px;
@@ -154,7 +157,7 @@ body {
     margin-top: 5px;
     font-size: 25px;
     margin-left: 45px;
-    color: #7e7e7e;
+    color: #9356DC;
 }
 
 /* section 2 */
@@ -649,5 +652,75 @@ a:link
     margin-top: 110%;
     margin-left: 8%;
 }
+
+}
+
+@media only screen and (min-width: 500px) and (max-width: 769px)
+{
+    
+    #bloc_page {
+        height: 1930px;
+        width: 768px;
+        margin: 0px;
+    }
+    #logo img {
+        margin-left: 37%;  
+    }
+    .fa-map-marker-alt {
+        margin-left: 40%;
+    }
+
+    #Trechercher {
+        margin-left: 34%;
+    }
+
+    #fonctionnement {
+        margin-left: 25%;
+    }
+
+    #flex {
+        display: flex;
+        margin-left: 8%;
+    }
+
+    .flex2 {
+        width: 300px;
+        margin-right: 50px;
+    }
+
+    .restaurants {
+        margin-top: 20px;
+        margin-left: 0;
+        margin-right: 60px;
+        margin-bottom: 60px;
+        width: 300px;
+        height: 200px;
+        background-color: white;
+        border-radius: 25px;
+        box-shadow: 1px 1px 12px grey;
+    }
+
+    .new {
+        margin-left: 195px;
+    }
+
+    #section2 {
+        height: 650px;
+    }
+
+    #loader {
+        width: 768px;
+    }
+    
+    .fa-sync {
+        margin-top: 35%;
+        margin-left: 40%;
+    }
+    
+    #chargement {
+        margin-top: 60%;
+        margin-left: 31%;
+    }
+
 
 }
