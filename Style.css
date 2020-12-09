@@ -153,7 +153,6 @@ body {
 }
 
 .fa-store {
-    
     margin-top: 5px;
     font-size: 25px;
     margin-left: 45px;
@@ -402,7 +401,7 @@ body {
 #T1explo {
     text-align: center;
     font-family: 'Roboto';
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     font-weight: bold;
 }
 #T2explo {
@@ -442,7 +441,7 @@ body {
     margin-left: 8%;
     margin-top: 30px;
     font-family: 'Roboto';
-    font-size: 1.4rem;
+    font-size: 1.2rem;
 }
 
 #fonctionnement {
@@ -500,11 +499,10 @@ body {
 }
 
 .fa-store {
-    
     margin-top: 5px;
     font-size: 25px;
     margin-left: 45px;
-    color: #7e7e7e;
+    color: #9356DC;  
 }
 
 /* section 2 */
@@ -523,7 +521,7 @@ body {
 #T1restaurants {
     margin-left: 8%;
     font-family: 'Roboto';
-    font-size: 1.4rem;
+    font-size: 1.2rem;
 }
 
 .restaurants {
@@ -629,6 +627,8 @@ a:link
  text-decoration:none; 
 }
 
+}
+
 @media only screen and (min-width: 500px) and (max-width: 769px)
 {
     
@@ -677,6 +677,4 @@ a:link
         margin-top: 60%;
         margin-left: 31%;
     }
-
-
 }
